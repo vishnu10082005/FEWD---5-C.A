@@ -1,0 +1,171 @@
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 95vw;
+  margin: auto;
+}
+.Navbar img{
+  width: 60px;
+}
+.search img{
+  width: 20px;
+  margin-right: -4px;
+}
+.search input{
+  width: 40vw;
+  height: 30px;
+}
+.search{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.Navbar button{
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(107, 226, 107);
+  border: 1px solid white;
+}
+/* body{
+  background-color: white;
+} */
+.navbar img{
+width: 60px;
+cursor: pointer;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: azure;
+  box-shadow: 1px 4px grey;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 30%;
+}
+
+form{
+  display:flex ;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+legend{
+  background-color: #242424;
+  color: white;
+  padding: 3px;
+}
+
+form input{
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  background-color: rgb(236, 204, 204);
+  border: 1px solid rgb(240, 198, 198);
+}
+
+form input[type="submit"]{
+  background-color: #41A445;
+  color: white;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+form input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #459948;
+}
+
+form label{
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.err{
+  color: red;
+  font-size: 0.9rem;
+}
+
+.success{
+  background-color: #98accf;
+  color: white;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+input{
+  color: black;
+}
+
+.book{
+  border: 1px solid black;
+  width: 20vw;
+  min-height: 400px;
+  box-sizing: border-box;
+
+}
+.book img{
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+.bottom{
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  color: rgb(36, 33, 33);
+}
+.rating{
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  color: rgb(41, 40, 40);
+  width: 100px;
+  margin: auto;
+  align-items: center;
+}
+.books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+ text-align: center;
+  width: 90vw;
+  gap: 40px;
+  margin: auto;
+  margin-top: 60px;
+}
+.mains{
+  text-align: center;
+}
+.main button {
+  transition: all 0.3s ease-out; 
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(223, 93, 93);
+  color: white; 
+  font-size: 16px;
+  cursor: pointer;
+  /* transition: all 0.3s ease-out; */
+}
+
+
+.main button:hover {
+  background-color: #2980b9; 
+}
+.Backbutton{
+  background-color: #41A445;
+  padding: 10px 10px;
+  cursor: pointer;
+  border: 1px solid white;
+}
